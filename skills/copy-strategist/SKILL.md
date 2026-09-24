@@ -161,10 +161,13 @@ wants, say so and change the shape of the claim.
 
 If you have a voice guide or a copy checker, run the draft and any suggested
 alternative lines through it before handing back. Two fix rounds, then hand
-back with what is still open. Report what the checks found. Then run the `ogilvy-advertising` brand check (same brand, competitor-swap
-test, respect for the reader, facts over adjectives). Hand back three versions
-of the headline or opener, not one, and say in one plain sentence why the
-first is recommended.
+back with what is still open. Report what the checks found.
+
+Then run the `ogilvy-advertising` brand check (same brand, competitor-swap
+test, respect for the reader, facts over adjectives) and its three quick tests
+(can I picture it, can it be proven false, can only we say it). Hand back
+three versions of the headline or opener, not one, and say in one plain
+sentence why the first is recommended.
 
 ## Ask first, but keep it to three
 

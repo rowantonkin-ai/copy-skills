@@ -42,14 +42,16 @@ Use copy-strategist to write a landing page for [product], aimed at [persona].
 ```
 
 If you do not have an angle yet, it starts by interviewing you about the
-product and proposing one. Then it will diagnose the brief, ask up to three questions if something
-load-bearing is missing, then draft with every move labelled.
+product and proposing one. Then it diagnoses the brief, asks up to three
+questions if something load-bearing is missing, and drafts with every move
+labelled.
 
 Other ways in:
 
 - **Strategy only:** "Use copy-strategist to diagnose this brief and propose
   the stack. Don't draft yet."
-- **Audit:** "Use copy-strategist to audit this copy against every framework." Paste the copy.
+- **Audit:** "Use copy-strategist to audit this copy against every
+  framework." Paste the copy.
 - **Paid social:** "Use copy-strategist to write a LinkedIn, Meta and Reddit
   ad for [product], with variants to test."
 - **Read results:** "Use scientific-advertising to read these ad results."
