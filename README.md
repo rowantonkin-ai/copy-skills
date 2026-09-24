@@ -1,12 +1,14 @@
 # Copy Skills
 
-Six Claude Code skills for direct-response copywriting. One orchestrator
-diagnoses a brief and composes the other five, each of which owns one layer
-of the classic direct-response method.
+Seven Claude Code skills that help people who are not copywriters write copy
+that works. One orchestrator diagnoses a brief and composes the other six,
+each of which owns one layer of the classic method. You do not need to know
+any of the frameworks: it asks plain questions and explains its choices.
 
 | Skill | Layer | Source |
 |---|---|---|
 | `copy-strategist` | Orchestrator. Diagnoses the brief, picks and orders the stack | Original |
+| `ogilvy-advertising` | Idea and brand: positioning, the Big Idea, the product fact, image and caption, the brand check | David Ogilvy, *Confessions of an Advertising Man* and *Ogilvy on Advertising* |
 | `copywriting-awareness` | Awareness: how much the reader knows, which sets angle and length | Eugene Schwartz, *Breakthrough Advertising* |
 | `cashvertising` | Desire: which Life-Force 8 driver leads, plus belief triggers | Drew Eric Whitman, *Ca$hvertising* |
 | `persuasion-principles` | Influence: Cialdini's six plus unity | Robert Cialdini, *Influence* and *Pre-Suasion* |
@@ -36,14 +38,15 @@ load. To install for one project only, copy the folders into that project's
 Use copy-strategist to write a landing page for [product], aimed at [persona].
 ```
 
-It will diagnose the brief, ask up to three questions if something
+If you do not have an angle yet, it starts by interviewing you about the
+product and proposing one. Then it will diagnose the brief, ask up to three questions if something
 load-bearing is missing, then draft with every move labelled.
 
 Other ways in:
 
 - **Strategy only:** "Use copy-strategist to diagnose this brief and propose
   the stack. Don't draft yet."
-- **Audit:** "Use copy-strategist to audit this copy against all five
+- **Audit:** "Use copy-strategist to audit this copy against all six
   frameworks." Paste the copy.
 - **One layer:** call a sub-skill directly, e.g. "Use cashvertising to pick the
   driver for this headline."

@@ -1,40 +1,47 @@
 ---
 name: copy-strategist
-description: "Orchestrator for direct-response copywriting. Diagnoses a brief (audience awareness, dominant desire, format, proof, offer, the reader's own vocabulary) and composes a STACK of the right sub-skills in the right order rather than picking one: copywriting-awareness (Schwartz), cashvertising (Whitman), persuasion-principles (Cialdini), boron-letters (Halbert), dan-kennedy-copy (Kennedy). Use when: writing an ad, email, landing page, or sales letter and you want the whole method applied; unsure which framework fits; you want a diagnosed strategy before a word is drafted; auditing existing copy against all five at once."
+description: "Orchestrator for direct-response copywriting. Diagnoses a brief (audience awareness, dominant desire, format, proof, offer, the reader's own vocabulary) and composes a STACK of the right sub-skills in the right order rather than picking one: ogilvy-advertising (Ogilvy), copywriting-awareness (Schwartz), cashvertising (Whitman), persuasion-principles (Cialdini), boron-letters (Halbert), dan-kennedy-copy (Kennedy). Use when: writing an ad, email, landing page, or sales letter and you want the whole method applied; unsure which framework fits; you want a diagnosed strategy before a word is drafted; auditing existing copy against all six at once. Built to be usable by people with no copywriting background."
 license: MIT
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Copy Strategist: the orchestrator
 
-Diagnoses a brief, then composes and sequences the sub-skills. The five
-frameworks operate at different layers and strong direct-response copy runs
-several at once, so the job here is selection and order rather than execution.
+Diagnoses a brief, then composes and sequences the sub-skills. The six
+frameworks operate at different layers and strong copy runs several at once,
+so the job here is selection and order rather than execution.
+
+**Assume the user is not a copywriter.** Ask plain questions, never ask them
+to name a framework, awareness stage or desire. Make the call yourself, and
+explain each choice in one ordinary sentence. Framework names go in the
+self-audit, not in the questions.
 
 ## When this runs, and when it does not
 
 **It runs** for a one-off brief: site copy, a cold email, an ad, a landing
-page, a sales letter, or an audit of existing copy against all five frameworks.
+page, a sales letter, or an audit of existing copy against all six frameworks.
 
 **It does not replace a drafting pipeline you already have.** If you run a
 content system with its own draft chain (research, hook pass, edit, review),
 call the sub-skills from inside that chain where they are needed. Do not put
 this orchestrator in front of a chain that already exists.
 
-## The five layers
+## The six layers
 
 | Sub-skill | Layer it owns | Source |
 |---|---|---|
+| `ogilvy-advertising` | Idea and brand. Positioning, the Big Idea, the product fact, image and caption, the final brand check | Ogilvy, *Confessions of an Advertising Man*, *Ogilvy on Advertising* |
 | `copywriting-awareness` | Awareness. How much the reader knows, which sets message and length | Schwartz, *Breakthrough Advertising* |
 | `cashvertising` | Desire. Which Life-Force 8 driver leads, plus the belief triggers | Whitman, *Ca$hvertising* |
 | `persuasion-principles` | Influence. Cialdini's six plus one | Cialdini, *Influence* |
 | `boron-letters` | Structure and list. A-pile, AIDA, fascinations, long copy | Halbert, *The Boron Letters* |
 | `dan-kennedy-copy` | Offer and response. Offer, urgency, CTA, follow-up, tracking | Kennedy, *No B.S. Direct Marketing* |
 
-The layers stack rather than compete. Awareness sets the entry point, desire
-picks the emotional driver, structure organizes it, influence and belief close
-it, and the offer captures the response.
+The layers stack rather than compete. The idea decides what the piece says,
+awareness sets the entry point, desire picks the emotional driver, structure
+organizes it, influence and belief close it, and the offer captures the
+response.
 
 ## Your context (optional, but it is what makes this yours)
 
@@ -52,9 +59,17 @@ them:
 
 When none exist, the skills fall back to the book versions and say so.
 
+## Step 0: the idea
+
+Before diagnosing, check whether the brief already says what the piece is
+about and why anyone should believe it. If it does not (the usual case for a
+non-copywriter), run `ogilvy-advertising` step 0: the plain-questions
+interview, one hard product fact, and a recommended positioning and Big Idea.
+If the brief already has a clear angle and a real fact, skip to step 1.
+
 ## Step 1: diagnose
 
-Extract seven variables from the prompt and the project context.
+Extract nine variables from the prompt and the project context.
 
 1. **Awareness stage.** Unaware, problem-aware, solution-aware, product-aware,
    or most-aware. Infer from traffic source and behaviour when it is not stated.
@@ -74,6 +89,11 @@ Extract seven variables from the prompt and the project context.
    out-write bad research, and good copy assembles from observed language.
    When none exists, say so, mark the draft `[VERNACULAR NEEDED]`, and write at
    the altitude of the reader's day anyway rather than at the product's.
+8. **Product fact.** One specific, checkable fact about the product that the
+   copy can stand on. `ogilvy-advertising` owns the dig. Mark
+   `[FACT NEEDED]` when there is none.
+9. **Brand-to-response dial.** Is the piece mainly building the brand or
+   asking for action now? It sets the weighting in step 2.
 
 ## Step 2: select
 
@@ -93,15 +113,21 @@ Add `persuasion-principles` when social proof, authority, scarcity, or
 reciprocity has to be engineered deliberately. It overlaps Whitman's principle
 10, so reach for it when the brief needs depth there.
 
-Weight the stack toward awareness for cold and unaware traffic, which wants a
-longer educational arc and no early pitch. Weight it toward Kennedy and Halbert
+Add `ogilvy-advertising` whenever the brief lacks a clear angle or fact, the
+format has an image, or the piece sits at the brand end of the dial. It always
+runs the final brand check.
+
+Weight the stack toward Ogilvy for brand-building pieces and toward Kennedy
+and Halbert for response pieces. Weight it toward awareness for cold and
+unaware traffic, which wants a longer educational arc and no early pitch. Weight it toward Kennedy and Halbert
 for hot and most-aware traffic, which wants short, direct, offer-led copy.
 
 ## Step 3: sequence
 
-Default build order. Awareness and desire lock first because everything
-downstream depends on them.
+Default build order. After the idea, awareness and desire lock first because
+everything downstream depends on them.
 
+0. **Idea.** Positioning, Big Idea and product fact, when step 0 ran.
 1. **Awareness.** Entry point, message angle, and copy length for the stage.
 2. **Desire.** Lock the ONE Life-Force 8 driver and build the means-end chain.
 3. **Structure.** Headline and A-pile, then AIDA, then fascinations.
@@ -122,8 +148,10 @@ wants, say so and change the shape of the claim.
 
 If you have a voice guide or a copy checker, run the draft and any suggested
 alternative lines through it before handing back. Two fix rounds, then hand
-back with what is still open. Report what the checks found. Hand back three
-versions of the headline or opener, not one.
+back with what is still open. Report what the checks found. Then run the `ogilvy-advertising` brand check (same brand, competitor-swap
+test, respect for the reader, facts over adjectives). Hand back three versions
+of the headline or opener, not one, and say in one plain sentence why the
+first is recommended.
 
 ## Ask first, but keep it to three
 
@@ -161,5 +189,5 @@ commercial results.
 
 ## Related
 
-- The five it orchestrates: `copywriting-awareness`, `cashvertising`,
+- The six it orchestrates: `ogilvy-advertising`, `copywriting-awareness`, `cashvertising`,
   `persuasion-principles`, `boron-letters`, `dan-kennedy-copy`.
