@@ -1,9 +1,10 @@
 # Copy Skills
 
-Seven Claude Code skills that help people who are not copywriters write copy
-that works. One orchestrator diagnoses a brief and composes the other six,
-each of which owns one layer of the classic method. You do not need to know
-any of the frameworks: it asks plain questions and explains its choices.
+Nine Claude Code skills that help people who are not copywriters write copy
+that works, with extra support for B2B ads on LinkedIn, Meta and Reddit. One
+orchestrator diagnoses a brief and composes the other eight, each of which
+owns one layer of the method. You do not need to know any of the frameworks:
+it asks plain questions and explains its choices.
 
 | Skill | Layer | Source |
 |---|---|---|
@@ -13,6 +14,8 @@ any of the frameworks: it asks plain questions and explains its choices.
 | `cashvertising` | Desire: which Life-Force 8 driver leads, plus belief triggers | Drew Eric Whitman, *Ca$hvertising* |
 | `persuasion-principles` | Influence: Cialdini's six plus unity | Robert Cialdini, *Influence* and *Pre-Suasion* |
 | `boron-letters` | Structure and list: 40/40/20, A-pile, AIDA, fascinations | Gary Halbert, *The Boron Letters* |
+| `b2b-paid-social` | Channel: fitting one message to LinkedIn, Meta and Reddit, with cut lines and native tone | Platform ads guides (checked September 2026) |
+| `scientific-advertising` | Testing: one-variable variants, a test plan, reading results without fooling yourself | Claude Hopkins, *Scientific Advertising*; John Caples, *Tested Advertising Methods* |
 | `dan-kennedy-copy` | Offer and response: offer, urgency, CTA, follow-up | Dan Kennedy, *No B.S. Direct Marketing* |
 
 The skills assume the model already knows the books. They do not summarize
@@ -46,8 +49,11 @@ Other ways in:
 
 - **Strategy only:** "Use copy-strategist to diagnose this brief and propose
   the stack. Don't draft yet."
-- **Audit:** "Use copy-strategist to audit this copy against all six
-  frameworks." Paste the copy.
+- **Audit:** "Use copy-strategist to audit this copy against every framework." Paste the copy.
+- **Paid social:** "Use copy-strategist to write a LinkedIn, Meta and Reddit
+  ad for [product], with variants to test."
+- **Read results:** "Use scientific-advertising to read these ad results."
+  Paste the numbers.
 - **One layer:** call a sub-skill directly, e.g. "Use cashvertising to pick the
   driver for this headline."
 

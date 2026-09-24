@@ -1,6 +1,6 @@
 ---
 name: ogilvy-advertising
-description: "The IDEA and BRAND layer of the copy stack, from David Ogilvy's Confessions of an Advertising Man (1963) and Ogilvy on Advertising (1983): positioning, the Big Idea, digging a specific fact out of the product, brand image, and making the image, headline and caption work together. Use when: the brief does not yet say what the piece is about or why anyone should care; you have a product but no angle; copy is accurate but forgettable; the piece builds a brand rather than asking for a sale; the format has an image; you want to check a draft still sounds like the same brand. Called by copy-strategist as step 0, before awareness, and again as the final brand check. Works for people with no copywriting background: it asks plain questions and proposes the idea rather than expecting one."
+description: "The IDEA and BRAND layer of the copy stack, from David Ogilvy's Confessions of an Advertising Man (1963) and Ogilvy on Advertising (1983), with April Dunford's B2B positioning order and Harry Dry's three quick copy tests: positioning, the Big Idea, digging a specific fact out of the product, brand image, and making the image, headline and caption work together. Use when: the brief does not yet say what the piece is about or why anyone should care; you have a product but no angle; copy is accurate but forgettable; the piece builds a brand rather than asking for a sale; the format has an image; you want to check a draft still sounds like the same brand. Called by copy-strategist as step 0, before awareness, and again as the final brand check. Works for people with no copywriting background: it asks plain questions and proposes the idea rather than expecting one."
 license: MIT
 metadata:
   version: 1.0.0
@@ -13,8 +13,8 @@ is the part of his method the rest of the stack is missing: deciding what the
 piece says before anyone writes it, finding the fact that makes it believable,
 and keeping every piece consistent with the brand.
 
-The other five skills are direct response. They get a reader to act now, and
-they all assume the core message is already settled. Ogilvy started earlier,
+The classic direct-response skills in this stack get a reader to act now,
+and they all assume the core message is already settled. Ogilvy started earlier,
 with the product, and he cared about the brand the tenth ad would build as
 much as the reply the first one would get.
 
@@ -79,8 +79,24 @@ question that would find it, and draft the idea without it.
 
 ## Step 0c: positioning and the Big Idea
 
-**Positioning** is what the product does and who it is for. Write three
-candidates in this shape and recommend one:
+**Positioning** is what the product does and who it is for. Ogilvy's version
+comes from consumer brands. For B2B, where buyers compare options before
+committing, use April Dunford's order from *Obviously Awesome*, which starts
+from what the buyer would do instead:
+
+1. **Alternatives.** What would the customer use if you did not exist?
+   (Interview question 3.) Often a spreadsheet, an agency, a hire, or doing
+   nothing, not only named competitors.
+2. **What you have that they do not.** The capabilities or facts that only you
+   offer against those alternatives. Step 0b usually finds them.
+3. **The value that creates.** What those differences let the customer do,
+   in their terms: time, money, risk, looking good to their boss.
+4. **Who cares most.** The kind of customer for whom that value matters most.
+   Narrower is stronger.
+5. **The category.** The market frame that makes the value obvious. If buyers
+   compare you to the wrong thing, the copy has to fight that first.
+
+Write three candidates in this shape and recommend one:
 
 > For [specific reader], [product] is the [what it is] that [does what],
 > because [the fact].
@@ -160,6 +176,16 @@ Run after the draft and any voice or style check. Four questions:
    reader as intelligent. Plain is good; condescending is not.
 4. Is there a fact where an adjective used to be?
 
+Then run Harry Dry's three quick tests (Marketing Examples) on the headline
+and each key line. They are the easiest checks for a non-copywriter to learn:
+
+- **Can I picture it?** "Keep your team aligned" is abstract. "Everyone sees
+  the same number on Monday" can be pictured.
+- **Can it be proven false?** "The best forecasting tool" cannot be checked.
+  "Forecasts in 10 minutes" can, which is why it is believed.
+- **Can only we say it?** If a competitor could sign the line, it needs your
+  fact or your customer in it.
+
 Report the answers in the handoff. Fix what fails, or say what is open.
 
 ## What is dated, and what collides
@@ -184,7 +210,7 @@ Return, in plain language:
 - The product fact under the idea, or the `[FACT NEEDED]` question.
 - Where the piece sits on the brand-to-response dial.
 - For visual formats, the image and caption direction.
-- At the end, the four brand-check answers.
+- At the end, the four brand-check answers and the three quick-test results.
 
 If you have a voice guide or copy checker, anything drafted here goes through
 it before it is handed back.
@@ -207,4 +233,6 @@ promise about commercial results.
 ## Source
 
 David Ogilvy, *Confessions of an Advertising Man* (1963) and *Ogilvy on
-Advertising* (1983).
+Advertising* (1983). The B2B positioning order is from April Dunford,
+*Obviously Awesome* (2019). The three quick tests are from Harry Dry,
+Marketing Examples.

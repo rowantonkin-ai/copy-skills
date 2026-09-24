@@ -1,16 +1,16 @@
 ---
 name: copy-strategist
-description: "Orchestrator for direct-response copywriting. Diagnoses a brief (audience awareness, dominant desire, format, proof, offer, the reader's own vocabulary) and composes a STACK of the right sub-skills in the right order rather than picking one: ogilvy-advertising (Ogilvy), copywriting-awareness (Schwartz), cashvertising (Whitman), persuasion-principles (Cialdini), boron-letters (Halbert), dan-kennedy-copy (Kennedy). Use when: writing an ad, email, landing page, or sales letter and you want the whole method applied; unsure which framework fits; you want a diagnosed strategy before a word is drafted; auditing existing copy against all six at once. Built to be usable by people with no copywriting background."
+description: "Orchestrator for direct-response copywriting. Diagnoses a brief (audience awareness, dominant desire, format, proof, offer, the reader's own vocabulary) and composes a STACK of the right sub-skills in the right order rather than picking one: ogilvy-advertising (Ogilvy), copywriting-awareness (Schwartz), cashvertising (Whitman), persuasion-principles (Cialdini), boron-letters (Halbert), dan-kennedy-copy (Kennedy), plus b2b-paid-social (LinkedIn, Meta, Reddit) for channel fit and scientific-advertising (Hopkins, Caples) for testing. Use when: writing an ad, email, landing page, or sales letter and you want the whole method applied; unsure which framework fits; you want a diagnosed strategy before a word is drafted; auditing existing copy against every framework at once; turning a draft into platform-ready, testable paid social ads. Built to be usable by people with no copywriting background."
 license: MIT
 metadata:
-  version: 2.1.0
+  version: 2.2.0
 ---
 
 # Copy Strategist: the orchestrator
 
-Diagnoses a brief, then composes and sequences the sub-skills. The six
-frameworks operate at different layers and strong copy runs several at once,
-so the job here is selection and order rather than execution.
+Diagnoses a brief, then composes and sequences the sub-skills. The frameworks
+operate at different layers and strong copy runs several at once, so the job
+here is selection and order rather than execution.
 
 **Assume the user is not a copywriter.** Ask plain questions, never ask them
 to name a framework, awareness stage or desire. Make the call yourself, and
@@ -20,14 +20,14 @@ self-audit, not in the questions.
 ## When this runs, and when it does not
 
 **It runs** for a one-off brief: site copy, a cold email, an ad, a landing
-page, a sales letter, or an audit of existing copy against all six frameworks.
+page, a sales letter, or an audit of existing copy against every framework.
 
 **It does not replace a drafting pipeline you already have.** If you run a
 content system with its own draft chain (research, hook pass, edit, review),
 call the sub-skills from inside that chain where they are needed. Do not put
 this orchestrator in front of a chain that already exists.
 
-## The six layers
+## The layers
 
 | Sub-skill | Layer it owns | Source |
 |---|---|---|
@@ -37,11 +37,14 @@ this orchestrator in front of a chain that already exists.
 | `persuasion-principles` | Influence. Cialdini's six plus one | Cialdini, *Influence* |
 | `boron-letters` | Structure and list. A-pile, AIDA, fascinations, long copy | Halbert, *The Boron Letters* |
 | `dan-kennedy-copy` | Offer and response. Offer, urgency, CTA, follow-up, tracking | Kennedy, *No B.S. Direct Marketing* |
+| `b2b-paid-social` | Channel. Fitting the message to LinkedIn, Meta and Reddit: cut lines, native tone, red flags | Platform ads guides and practice |
+| `scientific-advertising` | Testing. One-variable variants, a test plan, reading results honestly | Hopkins, *Scientific Advertising*; Caples, *Tested Advertising Methods* |
 
 The layers stack rather than compete. The idea decides what the piece says,
 awareness sets the entry point, desire picks the emotional driver, structure
-organizes it, influence and belief close it, and the offer captures the
-response.
+organizes it, influence and belief close it, the offer captures the response,
+the channel layer fits it to the platform, and testing lets the market pick
+the winner.
 
 ## Your context (optional, but it is what makes this yours)
 
@@ -117,10 +120,17 @@ Add `ogilvy-advertising` whenever the brief lacks a clear angle or fact, the
 format has an image, or the piece sits at the brand end of the dial. It always
 runs the final brand check.
 
+Add `b2b-paid-social` whenever the piece will run as an ad on LinkedIn, Meta
+or Reddit, and write one version per platform.
+
+Add `scientific-advertising` whenever the piece will run as a paid ad or a
+repeatable email, so it ships as a test rather than a guess.
+
 Weight the stack toward Ogilvy for brand-building pieces and toward Kennedy
 and Halbert for response pieces. Weight it toward awareness for cold and
-unaware traffic, which wants a longer educational arc and no early pitch. Weight it toward Kennedy and Halbert
-for hot and most-aware traffic, which wants short, direct, offer-led copy.
+unaware traffic, which wants a longer educational arc and no early pitch.
+Weight it toward Kennedy and Halbert for hot and most-aware traffic, which
+wants short, direct, offer-led copy.
 
 ## Step 3: sequence
 
@@ -136,6 +146,9 @@ everything downstream depends on them.
    classic moves read as tactics to a modern, sceptical reader.
 5. **Offer and response.** Offer, urgency, one clear CTA, risk reversal, and
    follow-up.
+6. **Channel.** One version per platform, each hook before the cut line.
+7. **Test.** Three to five one-variable variants and a test plan, built from
+   the approved draft once the checks below have passed.
 
 ## Step 4: draft, then check
 
@@ -189,5 +202,6 @@ commercial results.
 
 ## Related
 
-- The six it orchestrates: `ogilvy-advertising`, `copywriting-awareness`, `cashvertising`,
+- What it orchestrates: `ogilvy-advertising`, `b2b-paid-social`,
+  `scientific-advertising`, `copywriting-awareness`, `cashvertising`,
   `persuasion-principles`, `boron-letters`, `dan-kennedy-copy`.
