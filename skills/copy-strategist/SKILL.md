@@ -75,7 +75,7 @@ If the brief already has a clear angle and a real fact, skip to step 1.
 Extract nine variables from the prompt and the project context.
 
 1. **Awareness stage.** Unaware, problem-aware, solution-aware, product-aware,
-   or most-aware. Infer from traffic source and behaviour when it is not stated.
+   or most-aware. Infer from traffic source and behavior when it is not stated.
 2. **Dominant desire.** Which single Life-Force 8 driver is strongest for this
    persona. `cashvertising` owns the taxonomy and the narrowing rules.
 3. **Format.** Ad, email, sequence, landing page, long-form letter, subject
@@ -143,7 +143,7 @@ everything downstream depends on them.
 3. **Structure.** Headline and A-pile, then AIDA, then fascinations.
 4. **Influence and belief.** Proof, social proof, authority, scarcity, and
    specificity. `cashvertising` returns the belief triggers and flags which
-   classic moves read as tactics to a modern, sceptical reader.
+   classic moves read as tactics to a modern, skeptical reader.
 5. **Offer and response.** Offer, urgency, one clear CTA, risk reversal, and
    follow-up.
 6. **Channel.** One version per platform, each hook before the cut line.
@@ -181,7 +181,7 @@ sentence why the first is recommended.
 Ask before drafting when a load-bearing variable is missing, and do not guess
 silently on these:
 
-- **Awareness stage,** when traffic and behaviour do not settle it. "Where does
+- **Awareness stage,** when traffic and behavior do not settle it. "Where does
   this traffic come from: a cold ad, search, retargeting, or your list?"
 - **Dominant desire,** when the persona's driver is ambiguous. Propose two
   candidates and ask which. "Is this buyer moved more by not failing, or by

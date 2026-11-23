@@ -11,7 +11,7 @@ metadata:
 Assume the book. Whitman's argument, that eight desires are wired in and good
 copy channels them rather than manufacturing them, is not reproduced here.
 What follows is the routing vocabulary, the moves that survive a modern,
-sceptical reader, and the ones that do not.
+skeptical reader, and the ones that do not.
 
 ## What this skill owns
 
@@ -60,7 +60,7 @@ is #6. Dig before drafting.
 For client work or another business, all eight are in play and your own
 narrowing does not apply.
 
-## What survives a sceptical reader, and what collides
+## What survives a skeptical reader, and what collides
 
 The reason to load this skill rather than recall the book. Five moves transfer
 cleanly, four read as tactics to a modern audience, and one depends on the

@@ -9,7 +9,7 @@ metadata:
 # Cialdini: the influence layer
 
 Assume the books. The seven principles are not re-taught here. What follows is
-how each one behaves when the reader is sceptical and has seen every trick,
+how each one behaves when the reader is skeptical and has seen every trick,
 which is the part that keeps a draft from reading like every other page.
 
 ## What this skill owns
@@ -25,7 +25,7 @@ like them. Liking means we say yes to those we warm to. Authority means we
 defer to credible expertise. Scarcity means we want what is going away. Unity
 means shared identity beats mere liking.
 
-## How each principle lands with a sceptical audience
+## How each principle lands with a skeptical audience
 
 **Reciprocity works best when the gift is the thing itself.** The standard
 play is a lead magnet behind a form. For a relationship-building brand, a
@@ -91,7 +91,7 @@ clean style check as approval of the trigger.
 ## For work on other businesses
 
 A client engagement uses Cialdini unmodified. The narrowing above is for
-brands building trust with a sceptical audience, and a client selling to a
+brands building trust with a skeptical audience, and a client selling to a
 different buyer may need the scarcity and reciprocity plays exactly as
 written.
 

@@ -45,7 +45,7 @@ name to this person. "What's that" puts them early, "is that the thing that
 solves X" puts them at solution-aware, "that's like [competitor]" puts them at
 product-aware, and "I've been meaning to buy that" puts them at most-aware.
 
-When source and behaviour disagree and the fast version does not settle it,
+When source and behavior disagree and the fast version does not settle it,
 ask. This is one of the three questions `copy-strategist` may ask before
 drafting.
 

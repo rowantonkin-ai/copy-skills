@@ -39,7 +39,7 @@ vague ad is least bad.
 
 **Give the reason why.** Every claim should come with the because. "Faster
 approvals, because the approver gets one Slack message instead of a login" is
-stronger than "faster approvals", and it survives a sceptical B2B reader.
+stronger than "faster approvals", and it survives a skeptical B2B reader.
 
 ## Building variants: change one thing
 
@@ -133,7 +133,7 @@ your own buyers rather than advice about someone else's.
 
 Return:
 
-- The variants, each labelled with the one thing it changes.
+- The variants, each labeled with the one thing it changes.
 - The test plan block.
 - When results are pasted in, a plain-language read: winner, confidence
   (clear, leaning, or too early), and the next test.

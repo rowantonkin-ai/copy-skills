@@ -21,7 +21,7 @@ it asks plain questions and explains its choices.
 The skills assume the model already knows the books. They do not summarize
 them. What they add is the routing (which framework applies when, in what
 order) and the judgment about which classic moves still work on a modern,
-sceptical reader and which ones now read as tactics.
+skeptical reader and which ones now read as tactics.
 
 ## Install
 
@@ -44,7 +44,7 @@ Use copy-strategist to write a landing page for [product], aimed at [persona].
 If you do not have an angle yet, it starts by interviewing you about the
 product and proposing one. Then it diagnoses the brief, asks up to three
 questions if something load-bearing is missing, and drafts with every move
-labelled.
+labeled.
 
 Other ways in:
 

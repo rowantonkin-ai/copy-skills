@@ -34,7 +34,7 @@ for the few who are already interested.
 ## LinkedIn
 
 **Who is reading:** people at work, in work mode, deciding whether you are
-worth their attention. They are used to vendors and sceptical of them.
+worth their attention. They are used to vendors and skeptical of them.
 
 **Space (single image ads):**
 
@@ -110,7 +110,7 @@ to your ad in public, and they will.
   target first and borrow their vocabulary.
 - Offer something useful or a clear, low-pressure next step.
 - Plan to reply in the comments, fast and like a person. A helpful answer to a
-  sceptical comment often does more than the ad itself.
+  skeptical comment often does more than the ad itself.
 
 **Red flags:** marketing superlatives, stock photos, corporate phrasing,
 anything that sounds like a press release, and disabling or ignoring
@@ -139,7 +139,7 @@ Return one version per platform, each with:
   description) with character counts.
 - A note confirming the hook sits before the cut line.
 - The image or video direction in one or two lines.
-- For Reddit, two or three likely sceptical comments and a suggested reply to
+- For Reddit, two or three likely skeptical comments and a suggested reply to
   each.
 
 Then hand to `scientific-advertising` for variants.
