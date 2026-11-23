@@ -109,8 +109,12 @@ real source rather than filled with a plausible number.
 Return the structural choice (which skeleton, which opener shape, where the
 proof sits) rather than a finished draft when `copy-strategist` is composing.
 
-If you have a voice guide or copy checker, anything drafted here, including
-suggested headlines and bullets, goes through it before it is handed back.
+House style: before drafting or judging copy, look for the house style of the
+workspace you are in. That is a file named under 'House style' in the
+project's CLAUDE.md, or a HOUSE-STYLE.md at the project root. If one exists,
+read it, follow it, and check the draft against it before handing back. Where
+it conflicts with a move in this skill, the house style wins, and say so. If
+the project names a voice gate for the author, run it before handing back.
 
 ## Boundaries
 

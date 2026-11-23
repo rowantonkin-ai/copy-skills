@@ -71,6 +71,15 @@ named in your brief or in your project's `CLAUDE.md`:
 3. **An audience map.** Which channels serve which awareness stage, and which
    of the Life-Force 8 desires actually fire for your buyer.
 
+## House style
+
+Every skill has one step that looks for the house style of the workspace it
+runs in: a file named under "House style" in the project's `CLAUDE.md`, or a
+`HOUSE-STYLE.md` at the project root. If one exists, the skills read it,
+follow it, and check each draft against it, and where it conflicts with a move
+from a book, the house style wins. If the project also names a voice gate for
+the author, the skills run it before handing back.
+
 ## License
 
 MIT. See `LICENSE`.

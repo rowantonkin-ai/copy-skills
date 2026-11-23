@@ -137,8 +137,12 @@ Name the chosen LF8 explicitly when handing back, along with the means-end
 ladder and any belief triggers used. `copy-strategist` needs the LF8 by number
 for step 4.
 
-If you have a voice guide or copy checker, anything drafted or rewritten here,
-including suggested alternative lines, goes through it before handing back.
+House style: before drafting or judging copy, look for the house style of the
+workspace you are in. That is a file named under 'House style' in the
+project's CLAUDE.md, or a HOUSE-STYLE.md at the project root. If one exists,
+read it, follow it, and check the draft against it before handing back. Where
+it conflicts with a move in this skill, the house style wins, and say so. If
+the project names a voice gate for the author, run it before handing back.
 
 ## Boundaries
 

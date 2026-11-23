@@ -159,9 +159,16 @@ Mark every unsupported claim `[PROOF NEEDED: ...]` rather than filling it with
 a plausible number. When the evidence holds no receipt for the claim the brief
 wants, say so and change the shape of the claim.
 
-If you have a voice guide or a copy checker, run the draft and any suggested
-alternative lines through it before handing back. Two fix rounds, then hand
-back with what is still open. Report what the checks found.
+House style: before drafting or judging copy, look for the house style of the
+workspace you are in. That is a file named under 'House style' in the
+project's CLAUDE.md, or a HOUSE-STYLE.md at the project root. If one exists,
+read it, follow it, and check the draft against it before handing back. Where
+it conflicts with a move in this skill, the house style wins, and say so. If
+the project names a voice gate for the author, run it before handing back.
+
+Run any suggested alternative lines through the same checks. Two fix rounds,
+then hand back with what is still open. Do not present copy that skipped the
+checks, and report what they found.
 
 Then run the `ogilvy-advertising` brand check (same brand, competitor-swap
 test, respect for the reader, facts over adjectives) and its three quick tests
@@ -191,6 +198,13 @@ superiority") and mark the proof gaps.
 
 For your own brand, your voice guide and your narrowed desire set apply (see
 `cashvertising`), and the checks above are mandatory.
+
+When someone else presents or signs the copy, such as a founder on a partner
+deck, a proposal or a launch post, their voice governs, not yours. Load their
+voice profile if one exists. For pitch material written to one named partner or
+prospect, keep scarcity and other pressure devices out of the close and end on
+an invitation, because one-to-one readers feel pressure more sharply than a
+crowd does.
 
 For work on another business (a client, a company deep dive) the full
 frameworks apply unmodified, your personal voice rules do not, and the

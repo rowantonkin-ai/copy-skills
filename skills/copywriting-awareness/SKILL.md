@@ -35,7 +35,7 @@ Traffic source is the first read. Brand search and retargeting run late,
 product and problem search run through the middle, and a social scroll or a
 cold email runs early because nobody asked to hear from you.
 
-Behaviour is the second read and it overrides the first, because someone who
+Behavior is the second read and it overrides the first, because someone who
 arrived cold and then read three comparison posts is not cold any more. Pricing
 pages and repeated opens indicate product-aware. A single blog read indicates
 solution-aware at best.
@@ -96,8 +96,12 @@ Return the diagnosed stage with the evidence behind it, the entry point, and
 the length call, so `cashvertising` picks its driver against a settled stage.
 Say explicitly when the stage was inferred rather than confirmed.
 
-If you have a voice guide or copy checker, anything drafted here, including
-suggested openers, goes through it before it is handed back.
+House style: before drafting or judging copy, look for the house style of the
+workspace you are in. That is a file named under 'House style' in the
+project's CLAUDE.md, or a HOUSE-STYLE.md at the project root. If one exists,
+read it, follow it, and check the draft against it before handing back. Where
+it conflicts with a move in this skill, the house style wins, and say so. If
+the project names a voice gate for the author, run it before handing back.
 
 ## Boundaries
 
